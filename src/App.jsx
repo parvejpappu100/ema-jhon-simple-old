@@ -1,10 +1,12 @@
 import React from 'react';
 import Header from './components/Header/Header';
+import Shop from './components/Shop/Shop';
 
 const App = () => {
   return (
-    <div>
+    <div className='lg:container mx-auto'>
       <Header></Header>
+      <Shop></Shop>
     </div>
   );
 };

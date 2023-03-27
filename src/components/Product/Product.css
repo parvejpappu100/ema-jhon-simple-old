@@ -1,0 +1,10 @@
+.product{
+    height: 510px;
+    width: 350px;
+    position: relative;
+}
+
+.btn-add-to-cart{
+    position: absolute;
+    bottom: 0;
+}
