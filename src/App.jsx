@@ -4,7 +4,7 @@ import Shop from './components/Shop/Shop';
 
 const App = () => {
   return (
-    <div className='lg:container mx-auto'>
+    <div >
       <Header></Header>
       <Shop></Shop>
     </div>

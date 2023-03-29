@@ -3,3 +3,18 @@
     grid-template-columns: 4fr 1fr;
     gap: 40px;
 }
+
+.cart-container{
+    height: 844px;
+    position: sticky;
+    top: 64px;
+}
+
+.product-container {
+    overflow-y: scroll; /* enable vertical scrolling */
+    height: calc(100vh - 60px); /* calculate the height of the container to fill the remaining screen space */
+}
+
+/* .product-container::-webkit-scrollbar {
+    display: none;
+  } */
